@@ -1,0 +1,3 @@
+[] Make the website scale to different resolutions
+[] Add some small bits of javascrip
+[] Add projects to the project page

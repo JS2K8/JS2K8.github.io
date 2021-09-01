@@ -1,0 +1,253 @@
+/* -- General Styles -- */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+a:active {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+label {
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+
+/* -- Classes -- */ 
+
+/* Site-wide */
+
+.container {
+    flex: 1 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.header p {
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(151,151,151);
+    background: rgb(245, 245, 245);
+    height: 15vh;
+    font-size: 15px;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+.footer img {
+    height: 48px;
+    filter: grayscale();
+}
+
+.links {
+    margin: 1%;
+}
+
+.goldHover:hover {
+    color: rgb(209, 190, 149);
+}
+
+.largeMarge {
+    margin: 50px;
+}
+
+/* Index */
+
+.programmer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    align-items: center;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.column p {
+    margin: 0;
+    font-size: 25px;
+    color: rgb(151,151,151);
+}
+
+.column:hover {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 245, 245));
+}
+
+/* Projects */
+
+.github {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project img {
+    height: 500px;
+    margin: 1%;
+}
+
+.project p {
+    width: 50%;
+}
+
+/* About */
+
+.about p {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.skillImages {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.skillImages img {
+    height: 150px;
+    padding: 25px;
+}
+
+/* Contact */
+
+.formElements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.formElements input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formElements textarea {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.formElements input[type=submit] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.formElements input[type=submit]:hover {
+    background-color: rgb(209, 190, 149);
+    transition: background-color 200ms;
+    transition: color 200ms;
+    color: black;
+}
+
+/* Index */
+
+#myLogo {
+    height: 75px;
+}
+
+#hello {
+    color: gray;
+}
+
+#myName {
+    padding-left: 15px;
+    transition: color 1s;
+}
+
+/* Projects */
+
+
+
+/* About */
+
+
+
+/* Contact */
