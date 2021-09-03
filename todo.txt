@@ -1,2 +1,0 @@
-[] Add some small bits of javascript
-[] Add projects to the project page
