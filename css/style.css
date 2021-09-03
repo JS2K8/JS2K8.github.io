@@ -258,6 +258,7 @@ label {
     .title {
         text-align: center;
         flex-direction: column;
+        align-items: center;
     }
     #hello {
         margin: 5%;
@@ -280,7 +281,7 @@ label {
     }
     .column {
         width: 100%;
-        min-height: 150px
+        min-height: 25vh;
     }
     .footer {
         text-align: center;
