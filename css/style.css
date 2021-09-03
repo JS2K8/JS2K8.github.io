@@ -105,10 +105,8 @@ label {
     justify-content: center;
     font-family: 'Source Code Pro', monospace;
     align-items: center;
-}
-
-.underline:hover {
-    text-decoration: underline;
+    user-select: none;
+    cursor: crosshair;
 }
 
 .row {
@@ -133,6 +131,21 @@ label {
 .column:hover {
     background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 245, 245));
 }
+
+.blink{
+    font-weight: 100;
+    color: #2E3D48;
+    animation: 1.2s blink step-end infinite;
+  }
+  
+  @keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
 
 /* Projects */
 
