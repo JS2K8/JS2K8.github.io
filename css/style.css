@@ -254,13 +254,14 @@ label {
 
 /* -- Media Queries -- */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (min-width:400px) {
     .title {
         text-align: center;
         flex-direction: column;
     }
     #hello {
         margin: 5%;
+        text-align: center;
     }
     #myName {
         padding: 0px;
