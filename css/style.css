@@ -254,7 +254,7 @@ label {
 
 /* -- Media Queries -- */
 
-@media screen and (max-width: 800px) and (min-width:400px) {
+@media screen and (max-width: 800px) {
     .title {
         text-align: center;
         flex-direction: column;
