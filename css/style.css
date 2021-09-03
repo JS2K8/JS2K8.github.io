@@ -254,6 +254,8 @@ label {
 
 /* -- Media Queries -- */
 
+/* Index */
+
 @media screen and (max-width: 800px) {
     .title {
         text-align: center;
@@ -278,6 +280,7 @@ label {
     .content {
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     .column {
         width: 100%;
@@ -286,4 +289,51 @@ label {
     .footer {
         text-align: center;
     }
-  }
+
+
+  /* Projects */
+
+    .title h1 {
+        max-width: 80%;
+    }
+
+    .project img {
+        max-width: 100%;
+    }
+
+    .project p {
+        width: 75%;
+    }
+
+  /* About */
+
+    .aboutMe {
+        margin: 0;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .strong {
+        flex-direction: column;
+    }
+
+    .skillImages {
+        display: none;
+    }
+
+  /* Contact */
+
+    .formElements input[type=text] {
+        width: 100%;
+    }
+
+    .formElements textarea {
+        width: 100%;
+    }
+
+    .formElements input[type=submit] {
+        width: 100%;
+    }
+}
