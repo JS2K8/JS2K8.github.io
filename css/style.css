@@ -251,3 +251,37 @@ label {
 
 
 /* Contact */
+
+/* -- Media Queries -- */
+
+@media screen and (max-width: 800px) {
+    .title {
+        text-align: center;
+        flex-direction: column;
+    }
+    #hello {
+        margin: 5%;
+    }
+    #myName {
+        padding: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+    .column {
+        width: 100%;
+        min-height: 150px
+    }
+    .footer {
+        text-align: center;
+    }
+  }
